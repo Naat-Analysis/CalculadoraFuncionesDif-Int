@@ -3,14 +3,14 @@ colocar cualquier funcion de n variables y este objeto podrá derivar tanto simb
 y numericamente, integrar simbolicamente y numericamente, la opcion de graficar en 2 o 
 en 3 dimensiones dependiendo de las variables que tengas.
 '''
-
+import EJEMPLO as ej
 import sympy as sp #importamos las bibliotecas 
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from scipy.integrate import quad, dblquad, tplquad #importamos para los limites de la integral
 
-
+ej.HolaMundo()
 class FunctionCalculator:
     def __init__(self, expresion, variables):
         self.expresion = expresion
